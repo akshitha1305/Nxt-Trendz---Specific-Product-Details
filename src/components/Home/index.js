@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie'
-import {Redirect, Link} from 'react-router-dom'
 
+import {Redirect, Link} from 'react-router-dom'
 import Header from '../Header'
 
 import './index.css'

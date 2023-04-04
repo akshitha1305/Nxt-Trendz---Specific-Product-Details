@@ -1,5 +1,4 @@
 import {Route, Switch, Redirect} from 'react-router-dom'
-
 import LoginForm from './components/LoginForm'
 import Home from './components/Home'
 import Products from './components/Products'

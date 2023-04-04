@@ -1,6 +1,8 @@
 .main-heading {
   text-align: center;
-  padding: 15px;
+  font-family: 'Roboto';
+  font-size: 28px;
+  padding: 25px;
 }
 .login-form-container {
   display: flex;

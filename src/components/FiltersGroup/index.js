@@ -1,5 +1,4 @@
 import {BsSearch} from 'react-icons/bs'
-
 import './index.css'
 
 const FiltersGroup = props => {
@@ -81,6 +80,7 @@ const FiltersGroup = props => {
 
   const renderSearchInput = () => {
     const {searchInput} = props
+
     return (
       <div className="search-input-container">
         <input

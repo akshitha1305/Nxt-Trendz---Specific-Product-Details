@@ -1,5 +1,4 @@
 import {Link, withRouter} from 'react-router-dom'
-
 import Cookies from 'js-cookie'
 
 import './index.css'
