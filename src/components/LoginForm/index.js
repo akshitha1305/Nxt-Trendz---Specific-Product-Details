@@ -45,6 +45,8 @@ class LoginForm extends Component {
     }
     const response = await fetch(url, options)
     const data = await response.json()
+    console.log(data)
+    console.log(response)
     if (response.ok === true) {
       this.onSubmitSuccess(data.jwt_token)
     } else {
@@ -96,6 +98,7 @@ class LoginForm extends Component {
     }
     return (
       <div className="login-form-container">
+        <h1 className="main-heading">Nxt-Trends E-commerce</h1>
         <img
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
           className="login-website-logo-mobile-image"
